@@ -1,0 +1,191 @@
+/* Generals */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'fredericka_the_great';
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.font_family{
+    font-family: 'fredericka_the_great';
+}
+
+#font_family_second{
+    font-family: 'Open_Sans';
+}
+
+body{
+    margin: 0%;
+}
+
+
+
+/* Header */
+
+
+
+header h1 {
+    font-size: 40px;
+    text-indent: 200px;
+    margin-top: 0px;
+    padding-top: 20px;
+    
+}
+
+header section article h2{
+    font-size: 37px;
+    padding: 0px 60px 0px 60px;
+}
+
+header {
+    
+        background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: white;
+        margin: 0%;
+}
+
+
+header section article {
+    text-align: center;
+    padding: 200px 650px 0px 650px;
+    margin: 75px 100px 0px 100px;
+    /* Einfacherer Weg:mit width 260px gleiches Ergebnis margin right: auto und margin left: auto = dann ist das Element direkt in der Mitte der Seite */
+}
+
+header section nav:nth-of-type(1){
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid white;
+    margin-left: 850px;
+    margin-right: 850px;
+
+}
+
+header section nav:nth-of-type(1) a:nth-of-type(1){
+    color: white;
+    text-decoration: none;
+    /* display: block (dann stehen die Elemente untereinander) */
+}
+
+
+header section nav:nth-of-type(2) {
+    text-align: right;
+    padding-top: 350px;
+    padding-right: 20px;
+
+}
+
+
+header section nav:nth-of-type(2) a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header section nav:nth-of-type(2) a:nth-of-type(2){
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+
+/* main */
+
+main section{
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}   
+
+main section article h3{
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+main section article p:nth-of-type(1){
+    font-size: 15px;
+}
+
+main section article{
+    margin-bottom: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.contact{
+    padding: 10px;
+    padding-bottom: 25px;
+    border: 5px solid rgba(42, 42, 41, 0.682);
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom:180px;
+
+}
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: rgb(47, 46, 46) ;
+    
+}
+
+footer section article p{
+    text-indent: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+footer section article{
+    padding:25px 1000px 0 20px;}
+
+
+footer section nav:nth-of-type(1) a{
+    color:white;
+    text-decoration:none;
+    padding-top: 10px;
+
+}
+
+footer section nav:nth-of-type(1){
+    text-indent: 50px;
+    border: 2px solid white;
+    margin-right: 1730px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+
+footer section nav:nth-of-type(2)
+
+
+footer section article p{
+    font-size: 5px;
+} 
